@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Montserrat:wght@400;700&display=swap"
+    rel="stylesheet">
+  <title>Hazte Miembro Club Excursionista Vibac</title>
+  <meta name="author" content="Dalton Enriquez">
+    <meta name="description" content="El Club Excursionista Vibac, es un proyecto hecho para la asignatura de Proyecto Web 1">
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul class="navbar">
+        <li><a href="index.html" class="logo"></a></li>
+        <li><a class="hvr" href="#">Actividades y servicios</a></li>
+        <li><a class="hvr" href="tienda.html">Tienda</a></li>
+        <li><a class="hvr" href="presentacion_club.html">Presentación de club</a></li>
+        <li><a class="hvr" href="hazte_miembro.html">Hazte parte del equipo</a></li>
+        <li><button class="contact-button">Contacto</button></li>
+        <li class="mobile-only"><a class="hvr2 in_se" href="#">INICIO SESIÓN</a></li>
+        <li class="mobile-only cart-icon"><a class="hvr2" href="#"><img src="img/cart-fill.svg" alt="Carrito"></a></li>
+        <li class="pbtn">
+          <label for="menuToggle" class="hvr2">
+              <img src="img/list.svg" alt="list">
+          </label>
+</li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <input type="checkbox" id="menuToggle" class="menuToggle">
+    <div class="menu">
+        <a href="index.html">Home</a>
+        <a href="tienda.html">Tienda</a>
+        <a href="hazte_miembro.html">Hazte parte del equipo</a>
+        <a href="presentacion_club.html">Presentacion del club</a>
+        <a href="index.html">Contacto</a>
+        <a href="index.html">FAQS</a>
+        <a href="index.html">Noticias y eventos</a>
+    </div>
+    <div class="cont">
+      <ul class="ircb">
+        <li class="i-c"><a href="#">Inicio sesión </a></li>
+        <li><a href="#">Registro</a></li>
+        <li class="i-c"><a href="#"><img src="img/cart-fill.svg" alt="Carrito"></a></li>
+        <li><a href="#"><img src="img/search.svg" alt="Busqueda"></a></li>
+      </ul>
+    </div>
+    <div class="cnt2">
+      <ul>
+        <li><a href="#">Registro</a></li>
+        <li><a href="#"><img src="img/search.svg" alt="Busqueda"></a></li>
+      </ul>
+    </div>
+    <div class="team-section">
+      <section class="content">
+        <h2>HAZTE PARTE DEL EQUIPO</h2>
+        <p>Únete al Equipo de Vibac y forma parte de una comunidad apasionada por la aventura
+          y el respeto por la naturaleza. Al hacerte miembro, tendrás la oportunidad de
+          colaborar en la organización de excursiones, participar en proyectos de
+          sostenibilidad y contribuir a la gestión de nuestra tienda de intercambios.
+          Este es tu momento para compartir tus experiencias, aprender de otros
+          excursionistas y dejar una huella positiva en el medio ambiente.
+          ¡Ven y sé parte de un equipo que celebra la aventura y fomenta un estilo de
+          vida sostenible!</p>
+        <img class="img-c" src="img/altos-cinco-bosque.jpg" alt="Equipo de aventura">
+      </section>
+
+      <section class="form-container">
+        <h3>Solicitud</h3>
+        <form action="#" method="post">
+          <fieldset>
+            <legend class="dtp-f">Datos personales</legend>
+            <label for="name">Nombre y apellidos *</label>
+            <input placeholder="Ej: Dalton Enríquez" type="text" id="name" required>
+
+            <label for="email">Correo electrónico *</label>
+            <input placeholder="Ej: denriquez@uoc.edu" type="email" id="email" required>
+
+            <label for="phone">Teléfono *</label>
+            <input placeholder="Ej: 666-444-888" type="tel" id="phone" required>
+          </fieldset>
+
+          <fieldset>
+            <legend>Motivo de la solicitud *</legend>
+            <select id="reason" required>
+              <option value="">Selecciona un motivo</option>
+              <option value="">Deporte</option>
+              <option value="">Motivación</option>
+              <option value="">Famlia un motivo</option>
+            </select>
+          </fieldset>
+          <div class="disp-n">
+            <fieldset>
+              <legend>Disponibilidad</legend>
+              <div class="disp">
+                <label><input type="checkbox"> Cualquier día de la semana</label>
+                <label><input type="checkbox"> Fines de semana</label>
+                <label><input type="checkbox"> Otros</label>
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <legend>Nivel</legend>
+              <div class="disp">
+                <label><input type="checkbox" name="level"> Alto</label>
+                <label><input type="checkbox" name="level"> Media</label>
+                <label><input type="checkbox" name="level"> Bajo</label>
+              </div>
+            </fieldset>
+          </div>
+          <div class="obs">
+            <label for="comments">Observaciones</label>
+            <textarea placeholder="Escribe aquí el mensaje que quieras" id="comments"></textarea>
+
+            <label>
+              <input type="checkbox" required> He leído y acepto la Política de Privacidad
+              y autorizo a Vibac se ponga en contacto conmigo por teléfono y/o vía
+              correo electrónico *
+            </label>
+            <div>
+              <button class="btto" type="submit">Enviar formulario</button>
+            </div>
+          </div>
+        </form>
+      </section>
+    </div>
+    <div class="rd">
+      <a href="#" class="f"><img src="img/facebook.svg" alt="facebook de Vibac"></a>
+      <a href="#" class="inst"><img src="img/instagram.svg" alt="Instagram de Vibac"></a>
+      <a href="#" class="x"><img src="img/x.svg" alt="x de Vibac"></a>
+    </div>
+  </main>
+  <footer>
+    <div class="footer-container">
+      <div class="pol-te">
+        <a href="#" class="footer-link">Política de privacidad</a>
+        <a href="#" class="footer-link">Términos de uso del sitio web y tienda</a>
+      </div>
+      <div class="pol-log">
+        <a href="index.html" class="footer-logo"></a>
+      </div>
+    </div>
+
+  </footer>
+</body>
+
+</html>

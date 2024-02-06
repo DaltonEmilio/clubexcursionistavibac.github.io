@@ -1,0 +1,1329 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,700&family=Oswald:wght@400;700&display=swap');
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: #fff;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+  }
+  h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+  }
+  .cont{
+    max-width: 1200px;
+    margin: auto;
+    width: 100%;
+  }
+  header {
+    border-bottom: 1px solid #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+  }
+  nav {
+    max-width: 1280px;
+    width: 100%;
+  }
+  .navbar {
+    margin: 0px;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+  }
+  .navbar a, .navbar a.logo {
+    text-decoration: none;
+    color: #000000;
+    padding: 20px 15px;
+    display: flex; 
+    align-items: center;
+  }
+  .navbar li:first-child {
+    margin-right: auto;
+  }
+ .logo {
+  background-image: url('../img/Logo_bajo_Marron.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:center, center;
+    width: 100px;
+  }
+  .contact-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #13598b;
+    color: #fff;
+    height: 44px;
+    border-radius: 15px;
+    padding: 10px 40px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .contact-button:hover {
+    background-color:#8B4513;
+    color:#fff
+  }
+ li .hvr:hover {
+    background-color: #fff;
+    color: #000000;
+    text-decoration: underline;
+  }
+  .ircb{
+    margin: 0;
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+  }
+  .ircb li{
+    padding: 10px 0px 10px 30px;
+    font: 16px;
+    font-weight: bold;
+  }
+  .ircb li a {
+    text-decoration: none;
+    color: #000000;
+  }
+  .menuToggle {
+    display: none;
+  }
+/*---------------------------------------------main index----------------------------------------------------------------*/
+  .cont2{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-top: 0px;
+    max-width: 1280px;
+    margin: auto;
+    width: 100%;
+  }
+  .cnt2{
+    margin: auto;
+    justify-content:center;
+    max-width: 1200px;
+    width: 100%;
+  }
+  .mm {
+    background-image: url('../img/img-portada.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #8B4513;
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+  .mm p{
+    text-align: center;
+    color: #fff;
+    padding: 0px 20px 0px 20px;
+    line-height: 24px;
+  }
+  .cont2, .mm, .mm2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mm2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    width: 60%;
+  }
+.mmm{
+  height: 400px;
+}
+.sb-vibac{
+  height: 40px;
+}
+  .lg-m{
+    display: flex;
+    justify-content: center;
+    height: 50%;
+  }
+  .button {
+    background-color: #13598b;
+    color: #fff;
+    height: 40px;
+    width: 150px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  #club-v{
+    display: flex;
+    justify-content:center;
+    padding-top: 0px;
+    max-width: 1280px;
+    margin: auto;
+    width: 100%;
+  }
+h1{
+  font-family: 'Oswald', sans-serif;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-size: 64px;
+}
+.i-h-e{
+  margin: auto;
+  max-width: 1200px;
+  width: 100%;
+}
+.i-h-e h2{
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+}
+.inhaes{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.a-hj{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 1px solid #000000;
+  color: #000000;
+  border-radius: 15px;
+  padding: 52px 20px 52px 20px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  width: 350px;
+  height: 450px;
+}
+.inhaes a{
+  font-size: 32px;
+}
+.inhaes a:hover{
+  box-shadow: 0 0 20px #13598b;
+  border-color: #13598b;
+}
+.a-hj p{
+margin-top: 0px;
+margin-bottom: 0px;
+}
+.a-hj img{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  height: 80%;
+  }
+  .cys{
+    display: flex;
+    margin: auto;
+  max-width: 1200px;
+  width: 100%;
+  }
+  .cys h2{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 350px;
+    height: auto;
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  }
+  .ccont{
+    margin-left: 5%;
+    color: #fff;
+    margin-top: 20px;
+  }
+  .ppi-1{
+      background-color: #8B4513;
+      border-radius: 15px;
+      padding: 20px;
+      margin-bottom: 20px;
+      line-height: 24px;
+  }
+  .ppi-2{
+    background-color:#13598b;
+    border-radius: 15px;
+    padding: 20px;
+    line-height: 24px;
+}
+.pi{
+  font-size: 36px;
+  line-height:normal;
+}
+.nov{
+  margin: auto;
+max-width: 1200px;
+width: 100%;
+}
+.nov h2{
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+}
+.nov div p{
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  text-transform:uppercase;
+  color: #fff;
+}
+.nov div {
+  background-image: url(../img/hombre-joven-viajero-senderismo-solo-espacio-copia.jpg);
+  background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    border-radius: 15px;
+}
+/**-----------------------REDES SOCIALES----------------------------------------------------------------*/
+.rd{
+  margin: auto;
+  max-width: 1200px;
+  width: 100%;
+  background-color: #13598b;
+}
+.rd a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: right;
+  margin-left: 20px;
+}
+  /*---------------------------------------------FOOTER----------------------------------------------------------------*/
+  footer {
+    background-color: #8B4513;
+    width: 100%;
+    height: 208px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    width: 100%;
+  }
+  .pol-te{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0;
+    width: 30%;
+  }
+  .pol-te a{
+  padding-top: 15px;
+  }
+  .footer-link {
+    color: #ffffff;
+    text-decoration: none;
+    text-decoration: underline;
+    font-weight: bold;
+    margin: 0 10px;
+  }
+  .pol-log{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+  }
+ .footer-logo {
+    background-image: url('../img/Logo_bajo_Blanco.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:center, center;
+    width: 300px;
+    height: 150px;
+  }
+/*-----------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------TIENDA---------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------*/
+.carrousel{
+  margin: auto;
+  max-width: 1280px;
+}
+.conteCarrousel{
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+.itemCarrousel{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.itemCarrouselTarjeta{
+  width: 100%;
+  height: 100%;
+}
+.itemCarrouselArrows{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px; 
+}
+.itemCarrouselArrows > i:hover {
+  cursor: pointer;
+}
+#itemCarrousel-1{
+  background-image: url(../img/bota-senderismo-aventura-otono-hojas-amarillas-generada-ia.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+}
+.itemCarrousel-1-p{
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+}
+.itemCarrousel-1-p1{
+  padding-top: 0px;
+  font-size: 42px;
+}
+.itemCarrousel-1-p2{
+  font-size: 23px;
+}
+#itemCarrousel-2{
+  background-image: url(../img/senderismo-montana-verano-dos-viajeros-senderismo-montanas.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+}
+#itemCarrousel-3{
+  background-image: url(../img/composicion-viaje-otono-vista-superior.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+}
+.conteCarrouselController{
+  margin: auto;
+  width: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.conteCarrouselController > a{
+  text-decoration: none;
+  font-size: 3em;
+  color: grey;
+}
+.itemCarrouselArrows > a > i{
+  color: white;
+}
+.catalog-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.catalog-title {
+  font-size: 40px;
+  font-weight: bold;
+}
+.filter-container {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  gap: 10px;
+}
+.filter-container label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.filter-container input[type="checkbox"] {
+  accent-color: black;
+}
+.results-button {
+  background-color: #8B4513;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 15px;
+  text-transform: uppercase;
+  height: 40px;
+}
+.results-button:hover {
+  background-color: #A0522D;
+}
+.elemen {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  font-size: 36px;
+}
+.e-desple{
+  background-image: url(../img/Desplegable_Emulemtos.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 15px;
+  width: 30px;
+  height: 30px;
+  border: none;
+  margin-left: 40px;
+}
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+.product-card {
+  padding: 15px;
+  border-radius: 8px;
+}
+.product-card img {
+  max-width: 100%;
+  height: auto;
+}
+.product-card h3 {
+  margin: 10px 0;
+}
+.product-card p {
+  font-size: 0.9em;
+  color: #666;
+}
+.product-card span {
+  font-weight: bold;
+}
+.product-card button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 15px;
+}
+.product-card button:hover {
+  background-color: #2980b9;
+}
+.product-card button{
+  font-weight: bold;
+  background-color: white;
+  border: 1px solid #000000;
+  color: #000000;
+}
+.news-t{
+  margin: auto;
+  max-width: 1200px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+.news-container {
+  width: 100%;
+  margin: 0 auto;
+  background-color:#13598b;
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+.news-content {
+  max-width: 90%;
+  margin: 0 auto;
+  font-size: 40px;
+}
+.news-container h2 {
+  text-align: left;
+}
+.news-container h3 {
+  margin-top: 0;
+}
+.news-container p {
+  font-size: 1.2em;
+}
+.news-container button {
+  background-color:#8B4513;
+  color: white;
+  border: none;
+  width: 200px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 15px;
+  border-radius: 15px;
+}
+.news-container button:hover {
+  background-color: white;
+  color: #000000;
+}
+/*------------------------------HAZTE MIEMBRO---------------------------*/
+/*------------------------------HAZTE MIEMBRO---------------------------*/
+/*------------------------------HAZTE MIEMBRO---------------------------*/
+/*------------------------------HAZTE MIEMBRO---------------------------*/
+/*------------------------------HAZTE MIEMBRO---------------------------*/
+.team-section {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+.content, .form-container {
+  flex: 1;
+}
+.form-container{
+  width: 45%;
+}
+.content{
+  width: 45%;
+}
+.img-c{
+  width: 100%;
+  border-radius: 15px;
+}
+.content h2 {
+  font-size: 36px;
+}
+.form-container h3 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+.content p{
+  line-height: 24px;
+}
+.form-container form {
+  padding: 20px;
+  color:#000000;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+.btto {
+  background-color:#8B4513;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+fieldset{
+  border: none;
+}
+.dtp-f{
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.disp{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-size: 12px;
+}
+.disp label{
+  padding-bottom: 20px;
+}
+.disp-n{
+  display: flex;
+}
+.obs textarea{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 95%;
+  height: 80px;
+}
+.btto{
+  margin-top: 40px;
+}
+.btto:hover{
+  background-color: #13598B;
+  color: #fff;
+}
+.obs div .btto{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 18px;
+}
+/*------------------------------PRESENTACIÓN DEL CLUB------------------------------------*/
+/*------------------------------PRESENTACIÓN DEL CLUB------------------------------------*/
+/*------------------------------PRESENTACIÓN DEL CLUB------------------------------------*/
+/*------------------------------PRESENTACIÓN DEL CLUB------------------------------------*/
+/*------------------------------PRESENTACIÓN DEL CLUB------------------------------------*/
+.containerr {
+  max-width:1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.text-section {
+  width: 60%;
+}
+.text-section h3{
+  margin-top: 0px;
+}
+.text-section p{
+  line-height: 24px;
+}
+.image-section {
+  width: 35%;
+  text-align: center; 
+}
+.text-section h2{
+  padding-top: 0px;
+  margin: 0px;
+  font-weight: lighter;
+}
+.image-section img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #000000;
+  border-radius: 15px;
+}
+.philosophy-container{
+  margin: auto;
+  max-width: 1200px;
+}
+.philosophy-container h3{
+  font-size: 40px;
+}
+.philosophy-container p{
+  line-height: 24px;
+}
+.video-container {
+  position: relative;
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+}
+video {
+  width: 100%;
+  height: auto;
+}
+.video-container::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-size: contain;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+.mission-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  gap: 30px;
+  padding-top: 40px;
+}
+.mission-image {
+  max-width: 50%;
+  height: auto;
+  border-radius: 15px;
+}
+.mission-text {
+  flex: 1;
+}
+.mission-text p{
+  line-height: 24px;
+}
+.mission-text h3 {
+  font-size: 40px;
+}
+.vis-n{
+  padding-top: 40px;
+}
+.vis-n h3{
+  font-size: 40px;
+}
+.vis-n .image-section img{
+  border: 0px;
+}
+.meeting-container {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 40px;
+}
+.meeting-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.meeting-details,
+.key-points,
+.voting-initiatives {
+  flex: 1;
+}
+ul {
+  list-style: inside;
+  padding: 0;
+}
+.meeting-container h3{
+  font-size: 40px;
+}
+.meeting-container h4{
+  font-size: 14px;
+}
+.meeting-container .ag2{
+  font-size: 20px;
+}
+.voting-initiatives{
+  padding-top: 50px;
+}
+.organizational-structure {
+  max-width: 1200px;
+  margin: auto;
+  padding-bottom: 40px;
+}
+.organizational-structure h2{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.team-members {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.member {
+  flex-basis: calc(33.333% - 20px);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  padding-top: 20px;
+  background: #f2f2f2;
+  
+}
+.member img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+.dtn{
+  opacity: 0%;
+}
+.team-members .dtn-fondo{
+  background-image: url(../img/FotoDalton.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-eo{
+  background-color: rgba(19, 89, 139, 0.8);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 10px;
+  color: #fff;
+}
+/*------------------------------MEDIAS------------------------------------*/
+/*------------------------------MEDIAS------------------------------------*/
+/*------------------------------MEDIAS------------------------------------*/
+/*------------------------------MEDIAS------------------------------------*/
+/*------------------------------MEDIAS------------------------------------*/
+@media (min-width: 720px) {
+  .navbar .hvr2 {
+    display: none;
+  }
+  .mm2 .rri{
+    display: none;
+  }
+  .cnt2{
+    display: none;
+  }
+  .or-fil{
+    display: none;
+  }/*-----PRESENTACIÓN DEL CLUB----*/
+  .hdc{
+    display: none;
+  }
+  .btn-hdc{
+    display: none;
+  }
+  .menu {
+    display: none;
+  }
+}
+@media (max-width: 720px) {
+  .filter-container{
+    display: none;
+  }
+  .results-button{
+    display: none;
+  }
+  .elemen{
+    display: none;
+  }
+  .catalog-title{
+    font-size: 24px;
+    font-style: normal;
+  }
+  .navbar .hvr,.contact-button {
+    display: none;
+  }
+  .cont {
+    display: none;
+  }
+  .i-c{
+    display: none;
+  }
+  .cnt2{
+    margin: auto;
+    width: 100%;
+  }
+  .cnt2 ul{
+    display: flex;
+    justify-content: right;
+    text-decoration: none;
+    max-width: 1200px;
+    width: 90%;
+    list-style-type: none;
+  }
+  .cnt2 ul li a{
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  .ircb li a{
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+  }
+  .ircb :last-child{
+    padding-right: 16px;
+  }
+  nav {
+    width: 100%;
+    display: flex;
+  }
+  .logo {
+    background-image: url('../img/Logo_bajo_Marron.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:center, center;
+    margin-left: 16px;
+  }
+  header {
+    display: flex;
+    width: 100%; 
+    border-bottom: 1px solid #000000;
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    height: 60px;
+  }
+  li .in_se {
+    text-decoration: underline;
+  }
+  footer {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .pol-te .footer-link{
+    font-size: 12px;
+    text-decoration: none;
+    width: 100%;
+    }
+    .pol-log a{
+      margin: 0px;
+      padding: 0px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50%;
+    }
+    .mm{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0px;
+      padding: 0px;
+      width: 100%;
+    }
+    .mm2{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0px;
+      padding: 0px;
+      width: 100%;
+    }
+    .mm p{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      color: #fff;
+      padding: 0px 20px 0px 20px;
+      line-height: 24px;
+      width: 100%;
+  
+    }
+    .cont2 .mm .mm2{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0px;
+      padding: 0px;
+      width: 90%;
+    }
+.rri{
+display: flex;
+list-style-type: none;
+text-decoration: none;
+}
+.rri :first-child{
+text-decoration: underline;
+}
+.rri a{
+color: #fff;
+text-transform: uppercase;
+list-style-type: none;
+text-decoration: none;
+}
+.rri li{
+
+padding-left: 20px;
+}
+    .cont2 .mm .mm2 .rri{
+      display: flex;
+      justify-content:end;
+      margin: 0px;
+      padding: 0px;
+      width: 100%;
+    }
+    .cont2 .mm .mm2 .button {
+      background-color: #13598b;
+      color: #fff;
+      height: 40px;
+      width: 200px;
+      border-radius: 5px;
+      border: none;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      cursor: pointer;
+      margin-bottom: 40px;
+    }
+    #club-v h1{
+      font-family: 'Oswald', sans-serif;
+      padding-top: 0px;
+      font-size: 32px;
+    }
+    .i-h-e{
+      width: 90%;
+    }
+    .i-h-e h2{
+      font-family: 'Oswald', sans-serif;
+      font-size: 24px;
+      font-style: normal;
+    }
+    .i-h-e .inhaes{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+    .a-hj{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 127px;
+      margin-bottom: 20px;
+    }
+    .inhaes a{
+      width: 100%;
+      font-size: 16px;
+      border-radius: 5px;
+    }
+    .cys{
+      display: flex;
+      flex-wrap: wrap;
+    width: 90%;
+    }
+    .cys h2{
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    }
+    .cys{
+      display: flex;
+      margin: auto;
+    max-width: 1200px;
+    width: 100%;
+    }
+    .cys h2{
+      margin: auto;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      width: 90%;
+      height: auto;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    }
+    .ccont{
+      margin-left: 5%;
+      color: #fff;
+      margin-top: 20px;
+      width: 90%;
+    }
+  .pi{
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .art{
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .ppi-1{
+    border-radius: 5px;
+
+}
+.ppi-2{
+  border-radius: 5px;
+
+}
+.nov {
+  max-width: 90%;
+}
+.nov h2{
+  font-size: 24px;
+}
+.nov div p{
+font-size: 32px;
+margin-left: 15px;
+}
+.nov div a{
+  margin-left: 15px;
+  }
+.catalog-container {
+  max-width: 90%;
+}
+.or-fil{
+  margin: auto;
+  width: 90%;
+}
+.ordenar{
+  background-image: url(../img/order.svg);
+  background-repeat: no-repeat;
+  width: 140px;
+  height: 35px;
+  border: none;
+}
+.filtrar{
+  background-image: url(../img/order.svg);
+  background-repeat: no-repeat;
+  width: 140px;
+  height: 35px;
+  border: none;
+}
+.products-container {
+  grid-template-columns: repeat(2, 1fr);
+}
+.product-card button {
+  border-radius: 5px;
+}
+.news-container {
+  max-width: 100%;
+  padding: 20px;
+}
+.news-content h3{
+  font-size: 14px;
+  font-weight: bold;
+}
+.news-container{
+  display: flex;
+  align-items: center;
+}
+.news-t{
+  width: 90%;
+}
+/*-----------------------HAZTE MIEMBRO------------------------------*/
+.team-section {
+  flex-direction: column;
+}
+
+.content img, .form-container {
+  width: 100%;
+  padding: 0;
+}
+.form-container{
+  align-items: center;
+}
+.content{
+  margin: auto;
+  width: 90%;
+}
+.content h2{
+  font-size: 24px;
+  font-style: normal;
+}
+.content h3{
+  font-size: 24px;
+  font-weight: bold;
+}
+/*------------------------------PRESENTACIÓN DEL CLUB------------------------------------*/
+.hdc-1{
+  display: none;
+}
+.containerr {
+  flex-direction: column;
+  max-width: 90%;
+}
+.text-section{
+  width: 100%;
+  margin-bottom: 40px;
+}
+.image-section{
+  width: 100%;
+}
+.btn-hdc{
+  display: flex;
+  justify-content: center;
+}
+.philosophy-container .btn-hdc a{
+  background-color: #8B4513;
+}
+.read-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  background:#13598B;
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.philosophy-container{
+  max-width: 90%;
+}
+.philosophy-container h3{
+  font-size: 24px;
+}
+.video-container {
+  max-width: 100%;
+}
+.video-container{
+  max-width: 90%;
+  padding-top: 40px;
+}
+.mission-section {
+  max-width: 90%;
+  flex-direction: column-reverse; 
+}
+.mission-section  h3{
+  font-size: 24px;
+}
+.mission-image {
+  max-width: 100%;
+}
+.mission-text {
+  max-width: 100%;
+}
+.vis-n h3{
+  font-size: 24px;
+}
+.vis-n .text-section .btn-hdc a{
+  background-color: #8B4513;
+}
+.meeting-section {
+  flex-direction: column;
+}
+.meeting-details,
+.key-points,
+.voting-initiatives {
+  width: 100%;
+}
+.meeting-container{
+  max-width: 90%;
+}
+.voting-initiatives{
+  padding-top: 0px;
+}
+.meeting-container h3{
+  font-size: 24px;
+}
+.meeting-container h4{
+  font-size: 14px;
+}
+.meeting-container .ag2{
+  font-size: 18px;
+}
+.organizational-structure {
+  max-width: 90%;
+}
+.organizational-structure h2{
+  font-size: 24px;
+}
+.img-eo{
+  font-size: 7px;
+}
+.menu {
+  margin: auto;
+  display: flex;
+  padding-top: 20px;
+  align-items: center;
+  max-width: 1280px;
+  height: 720px;
+  display: none;
+  background-color: #8B4513;
+}
+.menu a{
+  text-decoration: none;
+  color: #fff;
+  line-height: 50px;
+}
+.menuToggle:checked ~ .menu {
+  display: flex;
+  flex-direction: column;
+}
+.pbtn{
+  padding-right: 20px;
+}
+}
